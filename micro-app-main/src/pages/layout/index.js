@@ -30,6 +30,8 @@ function Base() {
             <Routers></Routers>
             {/* 子应用 */}
             <div id="container"></div>
+            <div id="react16"></div>
+            <div id="vue"></div>
           </Content>
         </Layout>
       </Layout>

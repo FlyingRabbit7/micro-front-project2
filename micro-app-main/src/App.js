@@ -1,15 +1,14 @@
 import React from 'react';
-// import './App.css';
+import { BrowserRouter } from "react-router-dom";
+import Layout from './pages/layout'
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        header 部分
-      </header>
-      <div id="container"></div>
-    </div>
-  );
-}
+    <BrowserRouter>
+      <Layout></Layout>
+    </BrowserRouter>
+  )
+};
 
 export default App;

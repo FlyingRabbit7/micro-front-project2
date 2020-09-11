@@ -13,6 +13,12 @@ registerMicroApps([
     container: '#container',
     activeRule: '/vue',
   },
+  {
+    name: 'micro-app-jquery',
+    entry: '//localhost:7103',
+    container: '#container',
+    activeRule: '/static',
+  },
 ]);
 
 setDefaultMountApp('/react');
